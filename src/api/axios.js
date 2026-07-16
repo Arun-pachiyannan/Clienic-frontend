@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://anan-clinic-backend.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || "https://anan-clinic-backend.onrender.com/api",
 });
 
 // Attach the JWT (if we have one) to every outgoing request.
